@@ -1,6 +1,6 @@
-RBK is an implementation of <a href="http://www.redbeanphp.com">redbean</a>, a fantastic ORM for php, for use with Kohana 3. This package is intended to be a module for Kohana.
+RBK is an implementation of [redbean](http://redbeanphp.com), a fantastic ORM for php, for use with Kohana 3. This package is intended to be a module for Kohana.
 
-Installation:
+# Installation
 
 First, copy the redbean folder to the modules/ directory.
 
@@ -8,10 +8,10 @@ Second, modify config/redbean.php and change the dbname (located in connectstrin
 
 Third, modify bootstrap.php in the application folder and add the following under the modules section:
 
-'redbean' => MODPATH.'redbean', // Redbean ORM
+`'redbean' => MODPATH.'redbean', // Redbean ORM`
 
 That's it! Now you can call redbean from any controller.
 
-Notes:
+# Notes
 
 The version of redbean included is 2.0. To utilize another version simply replace the rb.php file located in redbean/vendor.
